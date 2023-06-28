@@ -44,83 +44,80 @@
       <a href="#">Orçamento grátis</a>
     </div>
     <div id="top"></div>
+    <div class="form-container">
     <form>
-        <h2>Como deseja o seu site?</h2>
+        <h2 class="hero-title section-title">Como deseja o seu site?</h2>
       
-        <h3>Preencha abaixo as informações sobre como você imagina que seria  o site ideal para você ou sua empresa</h3>
-        <div class="form-group">
-          <label for="cliente">Cliente:</label>
-          <input type="text" id="cliente" name="cliente">
+        <h3 class="hero-title">Me conte como você imagina que seria seu site ideal para você ou sua empresa</h3>
+        <div class="hero-title input-container">
+          <input placeholder="Cliente" class="input-field" type="text" name="cliente">
+          <label for="cliente" class="input-label">Cliente </label>
+          <span class="input-highlight"></span>
+        </div>
+        <!-- <h3>Informações sobre a Empresa</h3> -->
+        <div class=" hero-title input-container">
+          <textarea placeholder="Ramo de atuação e tempo de mercado" class="input-field" type="text"name="ramo_atuacao"></textarea>
+          <label for="ramo_atuacao" class="input-label">Ramo de atuação e tempo de mercado </label><span class="input-highlight"></span>
         </div>
       
-        <div class="form-group">
-          <label for="responsavel">Responsável pelo preenchimento: </label>
-          <input type="text" id="responsavel" name="responsavel">
+        <div class=" hero-title input-container">
+          <textarea placeholder="Produtos e/ou serviços oferecidos" class="input-field" type="text" name="produtos_servicos"></textarea>
+          <label for="produtos_servicos" class="input-label">Produtos e/ou serviços oferecidos </label><span class="input-highlight"></span>
         </div>
       
-        <h3>Informações sobre a Empresa</h3>
-        <div class="form-group">
-          <label for="ramo_atuacao">Ramo de atuação e tempo de mercado:</label>
-          <textarea id="ramo_atuacao" name="ramo_atuacao"></textarea>
+        <div class=" hero-title input-container">
+          <textarea placeholder="Uma breve descrição sobre a empresa" class="input-field" type="text" name="descricao_empresa"></textarea>
+          <label for="descricao_empresa" class="input-label">Uma breve descrição sobre a empresa</label><span class="input-highlight"></span>
+       </div>
+      
+        <div class=" hero-title input-container">
+          <input placeholder="Slogan ou chamada (para o banner)" class="input-field" type="text" name="slogan">
+          <label for="slogan" class="input-label">Slogan ou chamada (para o banner)</label><span class="input-highlight"></span>
         </div>
       
-        <div class="form-group">
-          <label for="produtos_servicos">Produtos e/ou serviços oferecidos:</label>
-          <textarea id="produtos_servicos" name="produtos_servicos"></textarea>
+        <div class=" hero-title input-container">
+          <textarea placeholder="Por que você está criando esse site? O que você espera realizar?" class="input-field" type="text" name="motivo_criacao"></textarea>
+          <label for="motivo_criacao" class="input-label">Por que você está criando esse site? O que você espera realizar?</label><span class="input-highlight"></span>
         </div>
       
-        <div class="form-group">
-          <label for="descricao_empresa">Uma breve descrição sobre a empresa:</label>
-          <textarea id="descricao_empresa" name="descricao_empresa"></textarea>
+        <div class=" hero-title input-container">
+          <textarea placeholder="O que você está oferecendo a seu público?" class="input-field" type="text" name="oferendo_publico"></textarea>
+          <label for="oferendo_publico" class="input-label">O que você está oferecendo a seu público?</label><span class="input-highlight"></span>
         </div>
       
-        <div class="form-group">
-          <label for="slogan">Slogan ou chamada (para o banner):</label>
-          <input type="text" id="slogan" name="slogan">
+        <div class=" hero-title input-container">
+          <textarea placeholder="O que você quer que os usuários façam em seu site?" class="input-field" type="text" name="acao_usuarios"></textarea>
+          <label for="acao_usuarios" class="input-label">O que você quer que os usuários façam em seu site?</label><span class="input-highlight"></span>
         </div>
       
-        <h3>Estratégia</h3>
-        <div class="form-group">
-          <label for="motivo_criacao">Por que você está criando esse site? O que você espera realizar?</label>
-          <textarea id="motivo_criacao" name="motivo_criacao"></textarea>
+        <div class=" hero-title input-container">
+          <textarea placeholder="Que tipo de site ele será? (Puramente promocional? Coletor de Informações? Uma publicação? Um ponto de venda?)" class="input-field" type="text" name="tipo_site"></textarea>
+          <label for="tipo_site" class="input-label">Que tipo de site ele será? (Puramente promocional? Coletor de Informações? Uma publicação? Um ponto de venda?)</label>
+          <span class="input-highlight"></span>
         </div>
       
-        <div class="form-group">
-          <label for="oferendo_publico">O que você está oferecendo a seu público?</label>
-          <textarea id="oferendo_publico" name="oferendo_publico"></textarea>
-        </div>
-      
-        <div class="form-group">
-          <label for="acao_usuarios">O que você quer que os usuários façam em seu site?</label>
-          <textarea id="acao_usuarios" name="acao_usuarios"></textarea>
-        </div>
-      
-        <div class="form-group">
-          <label for="tipo_site">Que tipo de site ele será? (Puramente promocional? Coletor de Informações? Uma publicação? Um ponto de venda?)</label>
-          <textarea id="tipo_site" name="tipo_site"></textarea>
-        </div>
-      
-        <div class="form-group">
-          <label for="recursos_site">Que recursos ele terá? Sistema de publicação? Animações? Sistema de e-commerce?</label>
-          <textarea id="recursos_site" name="recursos_site"></textarea>
+        <div class=" hero-title input-container">
+          <textarea placeholder="Que recursos ele terá? Sistema de publicação? Animações? Sistema de e-commerce?" class="input-field" type="text" name="recursos_site"></textarea>
+          <label for="recursos_site" class="input-label">Que recursos ele terá? Sistema de publicação? Animações? Sistema de e-commerce?</label><span class="input-highlight"></span>
           </div>
-          <div class="form-group">
-            <label for="qtd_paginas">Quantas páginas o site deverá ter?</label>
-            <input type="number" id="qtd_paginas" name="qtd_paginas">
+          <div class=" hero-title input-container">
+            <input placeholder="Quantas páginas o site deverá ter?" class="input-field" type="number" id="qtd_paginas" name="qtd_paginas">
+            <label for="qtd_paginas" class="input-label">Quantas páginas o site deverá ter?</label><span class="input-highlight"></span>
           </div>
-            <div class="form-group">
+            <!-- <div class="input-container">
                 <label for="concorrentes">Quais são seus 03 principais concorrentes?</label>
             <ol id="concorrentes">
               <li><input type="text" name="concorrente_1"></li>
               <li><input type="text" name="concorrente_2"></li>
               <li><input type="text" name="concorrente_3"></li>
             </ol>
-            </div>
+            </div> -->
           
-            <h3>Público-Alvo</h3>
-            <label for="frequencia_visitas">
-                </label>
-                </div>   
+            <!-- <h3>Público-Alvo</h3> -->
+            <!-- <label for="frequencia_visitas">
+                </label> -->
+                </div>  
+              </div> 
                 </form>   
                 <section id="contact">
                   <div class="container">
@@ -138,6 +135,7 @@
                     </div>
                   </div>
                 </section>
+
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">

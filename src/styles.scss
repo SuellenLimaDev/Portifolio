@@ -189,7 +189,7 @@
 #subscription-form{
   background-color: var(--secondary);
   padding: 2em;
-  max-width: 22%;
+  max-width: 65%;
 }
 
 #subscription-form p{
@@ -233,4 +233,14 @@
 
 .btn:hover{
   opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .header{
+    visibility: hidden;
+    height: 0;
+  }
+  .event-description{
+    flex-direction: column;
+  }
 }

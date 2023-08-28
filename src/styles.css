@@ -11167,7 +11167,6 @@ section {
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: #fff;
   font-weight: 400;
   color: #272341;
   padding: 0rem 5.6rem;
@@ -11176,7 +11175,6 @@ section {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
   position: relative;
   /* background: url("/src/assets/[your-image].png");
   background-position: center;
